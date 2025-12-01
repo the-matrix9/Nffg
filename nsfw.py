@@ -15,9 +15,9 @@ from moviepy.editor import VideoFileClip
 
 API_ID = int(os.getenv("API_ID", "14050586"))
 API_HASH = os.getenv("API_HASH", "42a60d9c657b106370c79bb0a8ac560c")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8453519968:AAHYRZf3rL0VTz4wchFYNJRmS9hYUk2NTfg")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8453519")
 
-MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority")
+MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://K048@cluster0.4rfuzro.mongodb.nyWrites=true&w=majority")
 mongo = MongoClient(MONGO_URL)
 db = mongo["nsfw_bot"]
 groups_col = db["groups"]   # per-group settings
